@@ -45,6 +45,7 @@ end
 
 end
 get '/barber/:id' do
-
-erb "This is gonna"	
+@barber=Barber.find(params[:id])	
+erb :barber
+	
 end
