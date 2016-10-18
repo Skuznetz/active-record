@@ -44,3 +44,7 @@ else
 end
 
 end
+get '/barber/:id' do
+
+erb "This is gonna"	
+end
